@@ -1,0 +1,71 @@
+
+ul li {
+    list-style-type: none;
+}
+ul {
+    display: flex;
+    /* background-color: bisque; */
+    color: brown;
+    justify-content: space-around ;
+    padding: 20px;
+    margin: 0;
+
+    background-color: rgb(248, 232, 214);
+    gap: 20px;
+    border-bottom: solid brown 3px;
+}
+a {
+    color: brown;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    color: brown;
+}
+
+h1,h3,  p {
+    text-align: center;
+}
+.users-container {
+    display: flex;
+    width: 70%;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+    padding: 20px;
+
+}
+.card-user{
+    width: 250px;
+    border: brown solid 2px ;
+    /* background-color: bisque; */
+    border-radius: 10px;
+    color: brown;
+    transition: 0.5s;
+}
+.card-user:hover {
+    background-color: rgb(229, 172, 172);
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: 0 auto;
+}
+
+input {
+    width: 350px;
+    height: 40px;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+.err-message {
+    margin-top: 0;
+    color: rgb(241, 75, 75);
+}
